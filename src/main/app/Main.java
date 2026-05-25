@@ -27,9 +27,21 @@ public class Main {
                         )
                 );
 
+        Bicicleta bicicleta3 =
+                new Bicicleta(
+                        "003",
+                        BicicletaFactory.obterBicicleta(
+                                "Mountain",
+                                "Preta",
+                                "EcoBike"
+                        )
+                );
+
         bicicleta1.exibir();
 
         bicicleta2.exibir();
+
+        bicicleta3.exibir();
 
         System.out.println(
                 "Flyweights criados: " +
